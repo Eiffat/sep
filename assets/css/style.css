@@ -120,7 +120,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #212122;
+  color: #67469c;
   line-height: 1.3em;
 }
 
@@ -575,7 +575,7 @@ li {
 	#page title
 ******************************/
 .page-title {
-  background: url("../images/page-title.jpg") center center/cover no-repeat local;
+  background:#67469c;
   width: 100%;
   height: 350px;
   text-align: center;
@@ -594,7 +594,6 @@ li {
   width: 100%;
   height: 100%;
   content: "";
-  background: rgba(6, 25, 56, .8);
 }
 
 @media (max-width: 991px) {
@@ -640,6 +639,14 @@ li {
   font-weight: bold;
   margin: 0 0 0.5em;
 }
+.page-title h3 {
+  font-size: 45px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0 0 0.5em;
+  color:#fff;
+}
+
 
 @media (max-width: 991px) {
   .page-title h2 {
@@ -3290,6 +3297,9 @@ li {
 .tp-site-footer .link-widget,
 .tp-site-footer-2 .link-widget {
   overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -3859,19 +3869,14 @@ li {
   right: -22px;
 }
 
-.features-item-2 {
-  background: #a5479b;
-}
 
 .features-icon {
   width: 112px;
   height: 112px;
-  line-height: 112px;
-  background: #fff;
+  
   border-radius: 50%;
   margin: auto;
-  position: relative;
-  z-index: 1;
+  
 }
 
 .features-icon:before {
