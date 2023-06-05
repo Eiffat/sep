@@ -4386,6 +4386,7 @@ li {
 .event-img img {
   min-height: 200px;
   object-fit: cover;
+  height: 320px;
 }
 
 .event-l-text {
@@ -4602,6 +4603,7 @@ li {
 
 .volunteer-item .volunteer-img {
   transition: all .3s;
+ 
 }
 
 .volunteer-item:hover .volunteer-img {
@@ -5106,6 +5108,7 @@ li {
   color: #999;
   padding-top: 5px;
   margin-bottom: 0;
+  text-align: center;
 }
 
 .tp-counter-area .tp-counter-grids,
